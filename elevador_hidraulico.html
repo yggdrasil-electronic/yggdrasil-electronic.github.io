@@ -1,0 +1,53 @@
+
+<html>
+  <head>
+    <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+  </head>
+  <body>
+    <a-scene>
+                <!--- estrutura principal --->
+        <a-box id="poster1" position="-2.20726 2.44752 0.01206" scale="0.36603 4.27095 0.79347" material="color:#400000" geometry=""></a-box>
+        <a-box id="poster1-2" position="2.05764 2.44752 0.01206" scale="0.36603 4.27095 0.79347" material="color:#400000" geometry=""></a-box>
+        <a-box id="base" position="0 0.14309 0" scale="4.95687 0.3403 1.08293" material="color:#000000" geometry=""></a-box>
+        <a-box id="base_lateral1" position="-2.53721 0.06738 -0.13569" scale="0.27913 0.1724 2.29269" material="color:#304e4e" geometry=""></a-box>
+        <a-box id="base_lateral1-2" position="2.59409 0.06738 -0.13569" scale="0.27913 0.1724 2.29269" material="color:#304e4e" geometry=""></a-box>
+        <a-box id="poster_interno1" position="-1.88096 2.44752 0.01206" scale="0.27388 4.27095 0.46681" material="color:#000000" geometry=""></a-box>
+        <a-box id="poster_interno1-2" position="1.74609 2.44752 0.01206" scale="0.27388 4.27095 0.46681" material="color:#000000" geometry=""></a-box>
+        <a-box id="tapon1" position="-2.07907 4.70213 -0.22209" scale="0.65538 0.25544 1.25519" material="color:#000000" geometry=""></a-box>
+        <a-box id="tapon1-2" position="1.99111 4.70213 0.20927" scale="0.74514 0.23435 1.22158" material="color:#000000" geometry=""></a-box>
+
+        <a-cylinder id="ejes1" position="2.10484 4.56365 0.66395" scale="0.13385 0.4154 0.13385" material="" geometry=""></a-cylinder>
+        <a-cylinder id="motor1" position="2.09726 4.1115 0.66214" scale="0.25325 0.70093 0.25325" material="" geometry=""></a-cylinder>
+        <a-box id="caja_de_motor1" position="2.14574 4.17339 0.92782" scale="0.27759 0.36755 0.21558" material="" geometry=""></a-box>
+
+        <a-cylinder id="motor2" position="-2.26727 4.09638 -0.67455" scale="0.29564 0.76829 0.29564" material="" geometry=""></a-cylinder>
+        <a-box id="caja_de_motor2" position="-2.32716 4.14738 -1.02231" scale="0.26373 0.36997 0.14671" material="" geometry=""></a-box>
+        <a-cylinder id="ejes2" position="-2.26394 4.61838 -0.66145" scale="0.13385 0.4154 0.13385" material="" geometry=""></a-cylinder>
+
+                <!---brazo de elevador1 --->
+        <a-box id="elevador1" position="-1.71434 0.46933 0.00436" scale="0.58962 0.29901 0.58953" material="color:#008040" geometry="">
+               <a-animation attribute="position" dur="1000" to="-1.71434 4.42031 0.00436" repeat="indefinite"></a-animation>
+        </a-box>
+        <a-box id="brazo1" position="-1.33253 0.45822 0.37858" rotation="0 48.25794325268872 0" scale="0.12561 0.1206 0.55539" material="" geometry="">
+                <a-animation attribute="position" dur="1000" to="-1.33999 4.41392 0.37126" repeat="indefinite"></a-animation>
+        </a-box>
+        <a-box id="brazo1-2" position="-1.29019 0.44649 -0.40446" rotation="0 129.23578731191336 0" scale="0.12561 0.1206 0.55539" material="" geometry="">
+                <a-animation attribute="position" dur="1000" to="-1.29019 4.4515 -0.40446" repeat="indefinite"></a-animation>
+        </a-box>
+
+            <!---barazo de elevador2--->
+        <a-box id="elevador1-2" position="1.5745 0.46933 0.00436" scale="0.58962 0.29901 0.58953" material="color:#008040" geometry="">
+               <a-animation attribute="position" dur="1000" to="1.5745 4.44779 0.00436" repeat="indefinite"></a-animation>
+        </a-box>
+
+        <a-box id="brazo2" position="1.1604 0.49894 0.46043" rotation="0 -41.916446376180765 0" scale="0.12561 0.1206 0.55539" material="" geometry="">
+                <a-animation attribute="position" dur="1000" to="1.1604 4.44638 0.46043" repeat="indefinite"></a-animation>
+        </a-box>
+
+        <a-box id="brazo2-1" position="1.13421 0.44649 -0.40446" rotation="0 47.386474446294734 0" scale="0.12561 0.1206 0.55539" material="" geometry="">
+                <a-animation attribute="position" dur="1000" to="1.13421 4.45008 -0.40446" repeat="indefinite"></a-animation>
+        </a-box>
+
+    </a-scene>
+  </body>
+</html>
