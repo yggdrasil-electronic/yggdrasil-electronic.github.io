@@ -1,0 +1,34 @@
+<script src="https://aframe.io/releases/0.6.0/aframe.min.js"></script>
+<!-- include ar.js for A-Frame -->
+<script src="https://jeromeetienne.github.io/AR.js/aframe/build/aframe-ar.js"></script>
+<script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
+<body style='margin : 0px; overflow: hidden;'>
+    <a-scene embedded arjs>
+         <a-box position="-0.94186 3.19875 -0.87281" rotation="0 41.51480296179406 0" scale="2.2464 1.0611 1.98922" material="color:#ff0000" geometry=""></a-box>
+         <a-cylinder position="0 3.15818 0" scale="1.05716 1.05716 1.05716" material="color:#ff0000" geometry=""></a-cylinder>
+         <a-cylinder position="-1.87699 3.15688 -0.04988" scale="1.06491 1.06491 1.06491" material="color:#ff0000" geometry=""></a-cylinder>
+
+           <a-box src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura1.jpg">
+            	<a-animation attribute = "rotation"
+                     to = "0 -178.715 0"
+                     repeat = "2">
+                 </a-animation>
+                <a-animation attribute="position"
+                     to="0 4.190 0"
+                     repeat="1">
+                 </a-animation>
+           </a-box>
+           <a-box  src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura4.jpg" position="-0.685 -0.002 -1.253" scale="2.25628 0.70219 1" material="" geometry="">
+                <a-animation attribute="position"
+                     to="-0.621 4.100 -1.265"
+                    repeat="1">
+                </a-animation>
+                <a-animation attribute = "rotation"
+                     to = "0 -178.715 0"
+                     repeat = "1">
+                </a-animation>
+            </a-box>
+
+            <a-marker-camera preset='hiro'></a-marker-camera>
+      </a-scene>
+  </body>
