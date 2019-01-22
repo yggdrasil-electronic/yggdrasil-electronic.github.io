@@ -4,10 +4,23 @@
 <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
- 
-	    <a-cylinder scale="0.145 0.145 0.145" material="color:#ff0000" position="0 0 -0.008" geometry=""></a-cylinder>
-	    <a-cylinder scale="0.145 0.145 0.145" material="color:#ff0000" position="0.19 0 -0.208"></a-cylinder>
-	    <a-box scale="0.293 0.139 0.293" material="color:#ff0000" position="0.179 0.006 -0.02"></a-box>
+ 		<a-cylinder scale="0.145 0.145 0.145" material="color:#ff0000" position="0 0 -0.008" geometry=""></a-cylinder>
+		<a-cylinder scale="0.145 0.145 0.145" material="color:#ff0000" position="0.19 0 -0.208"></a-cylinder>
+		<a-box scale="0.27 0.128 0.27" material="color:#ff0000" position="0.184 0.007 -0.008"></a-box>
+
+		<a-box src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura1.jpg" scale="1.069 0.164 0.393" position="-0.041 -1.053 -1.053 ">
+			<a-animation attribute="position" to="-0.041 0 0.427" dur="5000" repeat="indifinite"></a-animation>
+		</a-box>
+
+		<a-box src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura6.jpg" scale="0.517 0.127 0.303" position="-0.472 -0.018 -0.055">
+			 <a-animation attribute="rotation"
+                		to="0 0 360"
+               		repeat="indefinite"></a-animation>
+		</a-box>
+
+		<a-text value="TE QUIRO 
+				MI
+			        OVEJITA" position="0.02 0.103 -0.099" rotation="-89.439 0.01 0" scale="0.532 0.532 0.532" text="color:#ffffff"></a-text>
 	    
 	    
 	    
