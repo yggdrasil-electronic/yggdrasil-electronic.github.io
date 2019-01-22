@@ -4,29 +4,25 @@
 <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
 <body style='margin : 0px; overflow: hidden;'>
     <a-scene embedded arjs>
-         <a-box position="-0.94186 3.19875 -0.87281" rotation="0 41.51480296179406 0" scale="2.2464 1.0611 1.98922" material="color:#ff0000" geometry=""></a-box>
-         <a-cylinder position="0 3.15818 0" scale="1.05716 1.05716 1.05716" material="color:#ff0000" geometry=""></a-cylinder>
-         <a-cylinder position="-1.87699 3.15688 -0.04988" scale="1.06491 1.06491 1.06491" material="color:#ff0000" geometry=""></a-cylinder>
-
-           <a-box src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura1.jpg">
+         <a-box position="-0.48432 3.14833 -0.62337" rotation="0 41.51480296179406 0" scale="0.72748 0.60094 0.72974" material="color:#ff0000" geometry=""></a-box>
+         <a-cylinder position="0 3.15818 0" scale="0.585 0.585 0.585" material="color:#ff0000;transparent:true" geometry=""></a-cylinder>
+         <a-cylinder position="-1.04776 3.15504 -0.06303" scale="0.58388 0.58388 0.58388" material="color:#ff0000" geometry=""></a-cylinder>
+           <a-box src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura1.jpg" position="0 1.8582 0" rotation="0 -178.715 0" scale="0.42167 0.42167 0.42167" material="" geometry="">
             	<a-animation attribute = "rotation"
-                     to = "0 -178.715 0"
+                     to = "-89.462 3.388 176.750"
                      repeat = "2">
                  </a-animation>
                 <a-animation attribute="position"
-                     to="0 4.190 0"
+                     to="0.002 3.667 0.070"
                      repeat="1">
                  </a-animation>
            </a-box>
-           <a-box  src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura4.jpg" position="-0.685 -0.002 -1.253" scale="2.25628 0.70219 1" material="" geometry="">
-                <a-animation attribute="position"
-                     to="-0.621 4.100 -1.265"
+           <a-box src="https://raw.githubusercontent.com/algoconamor/algoconamor-carta.github.io/master/textura4.jpg" position="-0.32207 3.65042 -0.61948" scale="1.22847 0.38232 0.54446" material="" geometry="" rotation="0 -178.715 0">
+                <a-animation attribute = "position"   
+                    to="-0.322 2.075 -0.619"
                     repeat="1">
                 </a-animation>
-                <a-animation attribute = "rotation"
-                     to = "0 -178.715 0"
-                     repeat = "1">
-                </a-animation>
+               
             </a-box>
 
             <a-marker-camera preset='hiro'></a-marker-camera>
