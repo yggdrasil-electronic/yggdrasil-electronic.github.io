@@ -1,0 +1,102 @@
+.contenedor-uno {
+  margin-top:100px;
+  height: auto;
+}
+
+.nav-main a{
+  color: green;
+}
+
+.nav-main .small-logo{
+  font-size: 22px;
+}
+
+.nav-logo{
+  position: relative;
+  top: 3px;
+  width: 27px;
+  height: 22px;
+  margin-left: 15px;
+}
+
+.section2{
+  height: 500px;
+}
+
+#pinguino {
+  height: 220px;
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*esta primero*/
+
+#rowNav{
+  position:relative;
+  z-index:9;
+}
+
+/*esta tercera */
+
+#header{
+  position:relative;
+  z-index:7;
+}
+
+/*esta segunda*/
+.btn-git{
+  padding-top:0;
+  position:relative;
+  z-index:8;
+}
+
+#boton-sticker{
+  margin-top:-120px;
+}
+
+#parallax-uno{
+  margin-top:-120px;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+
+#parallax-uno .section{
+  margin-top: 140px;
+  padding-bottom: 70px;
+}
+
+.listStagLeft, .listStagRight{
+  height: auto;
+  display: none;
+}
+
+#staggered-wt{
+  display: none;
+  overflow: hidden;
+  position: relative;
+}
+#slider-wt{
+  display: none;
+}
+#license-wt{
+  display: none;
+}
+
+.line{
+  margin-left: auto;
+  margin-right: auto;
+  width: 10px;
+  background:black;
+  height: 1000px;
+  margin-top: -930px;
+  margin-bottom:-5px;
+}
+
+.parallax-container {
+  height: auto;
+}
+
+.button-card{
+  margin-top: -60px;
+}
